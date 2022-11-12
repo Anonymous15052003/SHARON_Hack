@@ -1,0 +1,38 @@
+print("""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+*****************************************************************************************************************
+
+.. ... ... ... ... ... ... ... ... ... ... ... INTRODUCTION ... ... ... ... ... ... ... ... ... ... ... ... ... ..                                     
+
+******************************************************************************************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+WELCOME TO MY COLLEGE DATABASE MANAGEMENT SYSTEM ...
+
+This project provides the information about 'College Management System' …
+
+This allows storage and management of details of all students. Student details like Rollno, Name, Subjects, Marks etc. are stored in 'Mysql' database …
+
+Details can be added, deleted or modified based on user requirement. Display of all or the selected information is possible …
+
+Performance Chart display of the selected data is also available ...
+
+---> Features:
+
+1) Add student records
+2) Remove student records
+3) Update student records
+3) Display all records
+4) Search details by SRN, Name, Age, Class, Total Marks, and Stream
+5) Performance Graphs
+
+
+This project demonstrates basic funcationality of a College Management System. More features need to be build into this in order to make it more user friendly ...
+
+Here I have created one College database using MySQL Queries in Python Jupyter Notebook and presented in a software known as 'Visual Studio Code'...
+""")
+
+a = input("Type exit : ")
+if a==exit:
+    print("Okay")
